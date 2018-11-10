@@ -15,6 +15,8 @@ def calculateIndicators(history):
 	# MACD
 	# Bollinger band value
 	# Current position with relation to BB
+	# DONE!
+	
 
 	pass
 
