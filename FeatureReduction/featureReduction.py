@@ -5,7 +5,7 @@ from sklearn.feature_selection import VarianceThreshold
 from sklearn.feature_selection import SelectPercentile, f_classif
 
 print("Feature reduction")
-myData = pandas.read_csv("AAPLhistory_withTargets.csv")
+myData = pandas.read_csv("datasets/AAPLhistory_with_t+1_targets.csv")
 myData = np.array(myData)
 dataFeatures = myData[:,1:-1] #All but the first and last column
 dataTargets = myData[:,-1] #Only last column
