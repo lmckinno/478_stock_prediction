@@ -16,10 +16,13 @@ preds = model.predict(dataFeatures)
 diff = dataTargets - preds
 misclassified = len(diff[diff != 0])
 confusion = cm(dataTargets, preds) 
-print(confusion)
+print('confusion matrix:', confusion)
 #0,0 = true negatives
 #0,1 = false positives
 #1,0 = false negatives
 #1,1 = true positives
 
 ### Repeat with reduced feature set to see if the reduction helps
+# .8 * (1 - .8) #Adjust threshold to remove more/less features
+sel = VarianceThreshold(threshold=5)
+reducedFeatures = sel.fit_transform(dataFeatures)
