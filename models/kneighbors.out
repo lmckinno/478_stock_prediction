@@ -1,0 +1,210 @@
+
+------------------------------ n_neighbors = 5: ------------------------------
+------ unreduced, unnormalized --------
+confusion matrix:
+ [[397 199]
+ [199 463]]
+accuracy: 0.6836248012718601
+recall: 0.6993957703927492
+precision: 0.6993957703927492
+F-measure: 0.6993957703927492
+------ feature variance reduction, unnormalized --------
+Original x shape:  (1258, 21)
+Reduced x shape:  (1258, 16)
+confusion matrix:
+ [[397 199]
+ [199 463]]
+accuracy: 0.6836248012718601
+recall: 0.6993957703927492
+precision: 0.6993957703927492
+F-measure: 0.6993957703927492
+------ ANOVA reduction, unnormalized --------
+Original x shape:  (1258, 21)
+P values [0.90782    0.904708   0.8988397  0.87927173 0.84998029 0.9523318
+ 0.91429652 0.94581035 0.94581035 0.87927173 0.82314211 0.8325738
+ 0.77692085 0.75680313 0.8631951  0.86395737 0.88325838 0.94874969
+ 0.96226589 0.48607115 0.73541553]
+Smallest p values [12 20 19 13 10  4 14 15 11  3]
+Reduced x shape:  (1258, 10)
+confusion matrix:
+ [[403 193]
+ [204 458]]
+accuracy: 0.6844197138314785
+recall: 0.6918429003021148
+precision: 0.7035330261136713
+F-measure: 0.6976389946686976
+
+------------------------------ n_neighbors = 10: ------------------------------
+------ unreduced, unnormalized --------
+confusion matrix:
+ [[426 170]
+ [278 384]]
+accuracy: 0.643879173290938
+recall: 0.5800604229607251
+precision: 0.6931407942238267
+F-measure: 0.631578947368421
+------ feature variance reduction, unnormalized --------
+Original x shape:  (1258, 21)
+Reduced x shape:  (1258, 16)
+confusion matrix:
+ [[426 170]
+ [278 384]]
+accuracy: 0.643879173290938
+recall: 0.5800604229607251
+precision: 0.6931407942238267
+F-measure: 0.631578947368421
+------ ANOVA reduction, unnormalized --------
+Original x shape:  (1258, 21)
+P values [0.90782    0.904708   0.8988397  0.87927173 0.84998029 0.9523318
+ 0.91429652 0.94581035 0.94581035 0.87927173 0.82314211 0.8325738
+ 0.77692085 0.75680313 0.8631951  0.86395737 0.88325838 0.94874969
+ 0.96226589 0.48607115 0.73541553]
+Smallest p values [12 20 19 13 10  4 14 15 11  3]
+Reduced x shape:  (1258, 10)
+confusion matrix:
+ [[417 179]
+ [273 389]]
+accuracy: 0.6406995230524642
+recall: 0.5876132930513596
+precision: 0.6848591549295775
+F-measure: 0.6325203252032521
+
+------------------------------ n_neighbors = 15: ------------------------------
+------ unreduced, unnormalized --------
+confusion matrix:
+ [[325 271]
+ [208 454]]
+accuracy: 0.6192368839427663
+recall: 0.6858006042296072
+precision: 0.6262068965517241
+F-measure: 0.65465032444124
+------ feature variance reduction, unnormalized --------
+Original x shape:  (1258, 21)
+Reduced x shape:  (1258, 16)
+confusion matrix:
+ [[325 271]
+ [208 454]]
+accuracy: 0.6192368839427663
+recall: 0.6858006042296072
+precision: 0.6262068965517241
+F-measure: 0.65465032444124
+------ ANOVA reduction, unnormalized --------
+Original x shape:  (1258, 21)
+P values [0.90782    0.904708   0.8988397  0.87927173 0.84998029 0.9523318
+ 0.91429652 0.94581035 0.94581035 0.87927173 0.82314211 0.8325738
+ 0.77692085 0.75680313 0.8631951  0.86395737 0.88325838 0.94874969
+ 0.96226589 0.48607115 0.73541553]
+Smallest p values [12 20 19 13 10  4 14 15 11  3]
+Reduced x shape:  (1258, 10)
+confusion matrix:
+ [[315 281]
+ [214 448]]
+accuracy: 0.6065182829888712
+recall: 0.676737160120846
+precision: 0.6145404663923183
+F-measure: 0.6441409058231489
+
+------------------------------ n_neighbors = 20: ------------------------------
+------ unreduced, unnormalized --------
+confusion matrix:
+ [[345 251]
+ [266 396]]
+accuracy: 0.5890302066772655
+recall: 0.5981873111782477
+precision: 0.6120556414219475
+F-measure: 0.6050420168067228
+------ feature variance reduction, unnormalized --------
+Original x shape:  (1258, 21)
+Reduced x shape:  (1258, 16)
+confusion matrix:
+ [[345 251]
+ [266 396]]
+accuracy: 0.5890302066772655
+recall: 0.5981873111782477
+precision: 0.6120556414219475
+F-measure: 0.6050420168067228
+------ ANOVA reduction, unnormalized --------
+Original x shape:  (1258, 21)
+P values [0.90782    0.904708   0.8988397  0.87927173 0.84998029 0.9523318
+ 0.91429652 0.94581035 0.94581035 0.87927173 0.82314211 0.8325738
+ 0.77692085 0.75680313 0.8631951  0.86395737 0.88325838 0.94874969
+ 0.96226589 0.48607115 0.73541553]
+Smallest p values [12 20 19 13 10  4 14 15 11  3]
+Reduced x shape:  (1258, 10)
+confusion matrix:
+ [[348 248]
+ [278 384]]
+accuracy: 0.5818759936406995
+recall: 0.5800604229607251
+precision: 0.6075949367088608
+F-measure: 0.5935085007727975
+
+------------------------------ n_neighbors = 25: ------------------------------
+------ unreduced, unnormalized --------
+confusion matrix:
+ [[283 313]
+ [205 457]]
+accuracy: 0.5882352941176471
+recall: 0.6903323262839879
+precision: 0.5935064935064935
+F-measure: 0.638268156424581
+------ feature variance reduction, unnormalized --------
+Original x shape:  (1258, 21)
+Reduced x shape:  (1258, 16)
+confusion matrix:
+ [[283 313]
+ [205 457]]
+accuracy: 0.5882352941176471
+recall: 0.6903323262839879
+precision: 0.5935064935064935
+F-measure: 0.638268156424581
+------ ANOVA reduction, unnormalized --------
+Original x shape:  (1258, 21)
+P values [0.90782    0.904708   0.8988397  0.87927173 0.84998029 0.9523318
+ 0.91429652 0.94581035 0.94581035 0.87927173 0.82314211 0.8325738
+ 0.77692085 0.75680313 0.8631951  0.86395737 0.88325838 0.94874969
+ 0.96226589 0.48607115 0.73541553]
+Smallest p values [12 20 19 13 10  4 14 15 11  3]
+Reduced x shape:  (1258, 10)
+confusion matrix:
+ [[287 309]
+ [214 448]]
+accuracy: 0.5842607313195548
+recall: 0.676737160120846
+precision: 0.5918097754293263
+F-measure: 0.6314305849189571
+
+------------------------------ n_neighbors = 30: ------------------------------
+------ unreduced, unnormalized --------
+confusion matrix:
+ [[334 262]
+ [266 396]]
+accuracy: 0.5802861685214626
+recall: 0.5981873111782477
+precision: 0.601823708206687
+F-measure: 0.6
+------ feature variance reduction, unnormalized --------
+Original x shape:  (1258, 21)
+Reduced x shape:  (1258, 16)
+confusion matrix:
+ [[334 262]
+ [266 396]]
+accuracy: 0.5802861685214626
+recall: 0.5981873111782477
+precision: 0.601823708206687
+F-measure: 0.6
+------ ANOVA reduction, unnormalized --------
+Original x shape:  (1258, 21)
+P values [0.90782    0.904708   0.8988397  0.87927173 0.84998029 0.9523318
+ 0.91429652 0.94581035 0.94581035 0.87927173 0.82314211 0.8325738
+ 0.77692085 0.75680313 0.8631951  0.86395737 0.88325838 0.94874969
+ 0.96226589 0.48607115 0.73541553]
+Smallest p values [12 20 19 13 10  4 14 15 11  3]
+Reduced x shape:  (1258, 10)
+confusion matrix:
+ [[330 266]
+ [269 393]]
+accuracy: 0.5747217806041336
+recall: 0.5936555891238671
+precision: 0.5963581183611533
+F-measure: 0.595003785011355
